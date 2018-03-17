@@ -18,6 +18,6 @@ This Chrome extension is for notifying you of new notifications from your HumHub
 | IE | ![](https://img.shields.io/badge/IE-N%2FA-red.svg) | |
 
 ### To-Does
-- Fix `goToHumHub` function
+- Cng `goToHumHub` function to `goToUrl`
 - Create Firefox extension
 - Create IE extension
