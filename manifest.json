@@ -12,7 +12,6 @@
          "js":[
             "src/content.js",
             "src/WebPushManager.js",
-            "src/options/options.js",
             "src/background/background.js"
          ],
          "persistent": true,
@@ -21,13 +20,14 @@
          ]
       }
    ],
-   "content_security_policy":"script-src 'self' https://www.humhub.org/en/legal/privacy; object-src 'self'",
-   "description":"This Chrome extension is for notifying you of new notifications from your HumHub installation.",
    "icons":{
       "128":"icon/hh-icon.png"
    },
    "manifest_version":2,
    "name":"HumHub Notifier",
+   "version":"1.0.0",
+   "description":"This Chrome extension is for notifying you of new notifications from your HumHub installation.",
+   "content_security_policy":"script-src 'self' https://www.humhub.org/en/legal/privacy; object-src 'self'",
    "options_ui":{
       "chrome_style":true,
       "page":"src/options/options.html"
@@ -38,6 +38,5 @@
       "cookies",
       "notifications",
       "https://community.humhub.com/*"
-   ],
-   "version":"1.0.0"
+   ]
 }
